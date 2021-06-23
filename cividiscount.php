@@ -443,7 +443,7 @@ function cividiscount_civicrm_buildAmount($pageType, &$form, &$amounts) {
           }
         }
       }
-      if ($autodiscount) {
+      if ($autodiscount && $discountApplied) {
         break;
       }
     }
